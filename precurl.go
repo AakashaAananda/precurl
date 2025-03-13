@@ -70,7 +70,7 @@ func renderHTMLAsText(html string) string {
 
 func printWithColor(text string) {
 	c := color.New(color.FgCyan, color.Bold)
-	c.Println("\n--- Webpage Preview ---\n")
+	c.Println("--- Webpage Preview ---")
 	fmt.Println(text)
 }
 
